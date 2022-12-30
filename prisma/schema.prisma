@@ -35,7 +35,6 @@ model veiculo {
 
 model locacao {
   numero_locacao Int    @id @default(autoincrement()) //PK
-  status         String
   data_inicio    String
   data_final     String
   veiculo        String
